@@ -9,6 +9,7 @@ function incrementVariable() {
 
 function doWhileLoop(n) {
   
-   do {
+  do {
     console.log("doo-bee-doo-bee-doo");
   } while (doWhileLoop() < 5);
+}  
