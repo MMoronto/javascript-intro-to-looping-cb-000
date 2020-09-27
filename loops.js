@@ -1,6 +1,6 @@
 let i = 0;
 
-function foorLoop( array ) {
+function forLoop( array ) {
   for (let i = 0; i < array.length; i++) {
     if ( i < 2 ) {
       console.log(`I kicked ${i} big butt!`);
