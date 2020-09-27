@@ -1,7 +1,11 @@
 let i = 0;
 
 function whileLoop(n) {
-  
+  let countdown = 100
+  while (countdown = 100 > 0) {
+    console.log(--countdown);
+  }
+  return 'done'
 }
  
 function incrementVariable() {
@@ -9,7 +13,6 @@ function incrementVariable() {
   return i;
 }
  
-let i = 0;
 
 function doWhileLoop(n) {
   
