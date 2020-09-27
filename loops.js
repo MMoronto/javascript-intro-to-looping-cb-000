@@ -2,12 +2,13 @@ let i = 0;
 
 function forLoop( array ) {
   for (let i = 0; i < 25; i++) {
-    if ( i < 1 ) {
-      array.push(`I kicked ${i} big butt!`);
-    } else
+    if ( i === 1 ) {
+      array.push(`I kicked 1 big butt!`);
+    } else {
       array.push(`I kicked ${i} big butts!`);
+    }  
   }
-  return array
+  return array;
 }
 
 function whileLoop(n) {
@@ -18,13 +19,14 @@ function whileLoop(n) {
   return 'done'
 }
  
-function incrementVariable() {
-  i = i + 1;
-  return i;
-}
- 
 
 function doWhileLoop(n) {
+    var i = 0;
+    
+    function incrementVariable() {
+    i = i + 1;
+    return i;
+        }
   
   do {
     console.log("I run once regardless.");
