@@ -10,6 +10,6 @@ function incrementVariable() {
 function doWhileLoop(n) {
   
   do {
-    console.log("doo-bee-doo-bee-doo");
+    console.log("I run once regardless.");
   } while (doWhileLoop() < 5);
 }  
