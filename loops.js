@@ -3,10 +3,11 @@ let i = 0;
 function forLoop( array ) {
   for (let i = 0; i < array.length; i++) {
     if ( i < 2 ) {
-      array.(`I kicked ${i} big butt!`);
+      array.push(`I kicked ${i} big butt!`);
     } else
-      console.log(`I kicked ${i} big butts!`);
+      array.push(`I kicked ${i} big butts!`);
   }
+  return array
 }
 
 function whileLoop(n) {
