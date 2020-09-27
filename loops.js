@@ -1,8 +1,8 @@
 let i = 0;
 
 function forLoop( array ) {
-  for (let i = 0; i < array.length; i++) {
-    if ( i < 2 ) {
+  for (let i = 0; i < 25; i++) {
+    if ( i < 1 ) {
       array.push(`I kicked ${i} big butt!`);
     } else
       array.push(`I kicked ${i} big butts!`);
